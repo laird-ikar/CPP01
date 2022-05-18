@@ -6,11 +6,11 @@
 #    By: bguyot <bguyot@student.42mulhouse.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/01 07:42:45 by bguyot            #+#    #+#              #
-#    Updated: 2022/05/17 13:16:53 by bguyot           ###   ########.fr        #
+#    Updated: 2022/05/18 07:41:53 by bguyot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	=	megaphone
+NAME	=	ex00.exe
 
 SRCS	=	main.cpp newZombie.cpp randomChump.cpp Zombie.cpp
 
