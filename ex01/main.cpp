@@ -6,6 +6,14 @@
 /*   By: bguyot <bguyot@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/18 07:56:28 by bguyot            #+#    #+#             */
-/*   Updated: 2022/05/18 07:56:29 by bguyot           ###   ########.fr       */
+/*   Updated: 2022/05/18 08:16:46 by bguyot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "Zombie.hpp"
+
+int main(void)
+{
+	/* code */
+	return 0;
+}
