@@ -6,7 +6,7 @@
 /*   By: bguyot <bguyot@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/01 07:56:41 by bguyot            #+#    #+#             */
-/*   Updated: 2022/05/18 07:40:32 by bguyot           ###   ########.fr       */
+/*   Updated: 2022/05/18 07:57:32 by bguyot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	main(void)
 	no_name.annonce();
 	hector.annonce();
 	silvy->annonce();
-	natasha->natasha();
-	destroy natasha;
-	destroy silvy;
+	natasha->annonce();
+	delete natasha;
+	delete silvy;
 }
