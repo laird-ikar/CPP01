@@ -1,24 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   zombieHorde.cpp                                    :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bguyot <bguyot@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/18 07:56:29 by bguyot            #+#    #+#             */
-/*   Updated: 2022/05/18 10:32:45 by bguyot           ###   ########.fr       */
+/*   Created: 2022/05/19 07:12:46 by bguyot            #+#    #+#             */
+/*   Updated: 2022/05/19 07:12:48 by bguyot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.hpp"
+#include "Harl.hpp"
 
-Zombie*	zombieHorde(int n, std::string name)
-{
-	Zombie	*horde = new Zombie[n];
+int main(int argc, char *argv[]) {
 
-	while (n--)
-	{
-		horde[n].set_name(name);
+	Harl harl;
+
+	if (argc != 2){
+		std::cout << "Usage : ./ex05 [DEBUG/INFO/WARNING/ERROR]\n";
+		exit(0);
 	}
-	return (horde);
+	harl.complain(argv[1]);
 }
